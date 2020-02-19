@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+li {
+  list-style: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent {
+  cursor: pointer;
+}
+
+.player,
+.monster {
+  background-color: lightblue;
+  display: inline-block;
+  height: 20px;
+  width: 17em;
+  border: 1px solid grey;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span {
+  font-weight: 600;
+}
+
+strong {
+  display: block;
+}
+
+#dice1, #dice2, #dice3, #dice4 {
+  font-size: 15rem;
+}
+#dice1, #dice2 {
+  color: red;
+}
+#dice3, #dice4 {
+  color: blue;
+}
+
+input {
+  background: #fff;
+  border: 2px solid #c4c4c4;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32pt;
+  /* height: 35px; */
+  margin: 0;
+  outline: none;
+  padding: 1em 2em 1em;
+}
